@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/gabung"
+    tools:context=".login.Login">
+
+    <ImageView
+        android:layout_width="297dp"
+        android:layout_height="147dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/logo_app" />
+
+
+    <EditText
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:background="@xml/gaya_edit_text_login"
+        android:padding="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="20dp"
+        android:id="@+id/Username"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:layout_marginLeft="30dp"
+        android:background="@xml/gaya_edit_text_login"
+        android:padding="10dp"
+        android:layout_marginRight="30dp"
+        android:textSize="20dp"
+        android:id="@+id/Psw"/>
+
+    <Button
+        android:id="@+id/Masuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="30dp"
+        android:background="@xml/button_login"
+        android:text="Login"
+        android:textColor="#FFFF" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@xml/button_signup"
+        android:text="Sign Up"
+        android:onClick="SignUp"
+        android:textColor="#FFFF" />
+</LinearLayout>

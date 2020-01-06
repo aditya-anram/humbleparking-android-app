@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KebijakanPrivasi">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Kebijakan Privasi"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+
+    <ImageView
+        android:layout_width="333dp"
+        android:layout_gravity="center"
+        android:layout_height="152dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/logo_app" />
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Dengan menggunakan Aplikasi Humble Parking, anda berarti menyetujui dengan peraturan yang berlaku dan segala UU yang mengatur, serta dapat menggunakan Aplikasi ini dengan bijak."/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

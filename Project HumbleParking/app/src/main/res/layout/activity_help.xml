@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Help">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Bantuan Aplikasi"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+
+    <ImageView
+        android:layout_width="333dp"
+        android:layout_gravity="center"
+        android:layout_height="152dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/logo_app" />
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Cara Penggunaan Aplikasi :"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#000"
+            android:text="1. Buka Menu Booking"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#000"
+            android:text="2. Isikan No. Plat, Nama, dan Lama Parkir"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#000"
+            android:text="3. Tekan Tombol Booking"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#000"
+            android:text="4. Lihat Detail Booking"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#000"
+            android:text="5. Lihat Lokasi Parkir"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#000"
+            android:text="6. Tujukan Kode Booking Kepada Petugas Parkir Di Lokasi"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

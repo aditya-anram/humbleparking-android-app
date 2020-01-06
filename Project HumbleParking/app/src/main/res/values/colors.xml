@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#008577</color>-->
+    <color name="colorPrimary">#78B334</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="blue_muda">#2796C7</color>
+    <color name="deep_blue">#78B334</color>
+    <color name="indigo_1">#FFC107</color>
+    <color name="indigo_2">#FFEB3B</color>
+    <color name="indigo_3">#C9DA24</color>
+    <color name="indigo_4">#F44336</color>
+</resources>

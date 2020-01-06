@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gabung"
+    tools:context=".login.DaftarAkun">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Daftar Akun"
+       android:textSize="30dp"
+       android:gravity="center"
+       android:layout_marginTop="20dp"
+       android:textStyle="bold"
+       android:textColor="#173750"/>
+
+ <ImageView
+     android:layout_width="297dp"
+     android:layout_height="147dp"
+     android:layout_gravity="center"
+     android:layout_marginTop="20dp"
+     app:srcCompat="@drawable/logo_app" />
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:background="@xml/gaya_edit_text_login"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:id="@+id/buatUsername"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@xml/gaya_edit_text_login"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:id="@+id/buatPsw"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ulangi password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:background="@xml/gaya_edit_text_login"
+        android:textSize="20dp"
+        android:inputType="textPassword"
+        android:id="@+id/buatRepassword"/>
+    <Button
+        android:layout_marginTop="90dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@xml/button_signup"
+        android:text="Sign Up"
+        android:textColor="#FFFF"
+
+        android:id="@+id/signup"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/login"
+        android:background="@xml/button_login"
+        android:text="Login"
+        android:onClick="keLogin"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

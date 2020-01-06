@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/main"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_booking"
+            android:icon="@drawable/icon_booking"
+            android:title="Booking" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/history"
+            android:title="Riwayat" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/maps"
+            android:title="Lihat Lokasi" />
+    </group>
+
+    <item android:title="Hubungi Kami">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/call"
+                android:title="Telepon" />
+            <item
+                android:id="@+id/nav_tools"
+                android:icon="@drawable/pesan"
+                android:title="Pesan" />
+        </menu>
+    </item>
+
+</menu>

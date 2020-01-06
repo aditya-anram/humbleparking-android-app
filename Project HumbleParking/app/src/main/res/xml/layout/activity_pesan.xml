@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Pesan">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Kirim Pesan"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+
+    <ImageView
+        android:layout_width="333dp"
+        android:layout_gravity="center"
+        android:layout_height="152dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/logo_app" />
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+<!--        <EditText-->
+<!--            android:id="@+id/nomor"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:hint="no. telepon"-->
+<!--            android:inputType="number"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_height="50dp">-->
+<!--        </EditText>-->
+
+        <EditText
+            android:id="@+id/isipesan"
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:inputType="textMultiLine"
+            android:paddingLeft="10dp"
+            android:ems="10"
+            android:background="@xml/input"
+            android:lines="4"
+            android:layout_marginRight="20dp"
+            android:hint="masukan isi pesan anda..."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_height="match_parent">
+        </EditText>
+
+        <Button
+            android:id="@+id/btnkirim"
+            android:layout_width="wrap_content"
+            android:text="Kirim"
+            android:layout_gravity="right"
+            android:textSize="18dp"
+            android:background="@xml/button"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content">
+        </Button>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

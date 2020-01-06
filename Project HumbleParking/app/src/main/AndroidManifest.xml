@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aditya.humbleparking">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+
+
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+        <activity android:name=".PilihBooking" />
+        <activity android:name=".Fragments.fragment_scan" />
+        <activity android:name=".Fragments.fragment_generate_qrcode" />
+        <activity android:name=".Fragments.fragment_generate_barcode" />
+        <activity android:name=".Fragments.fragment_custom_dialog" />
+        <activity
+            android:name=".AdminActivity"
+            android:label="Admin Humble Parking " />
+        <activity
+            android:name=".database.TampilRiwayat"
+            android:label="Riwayat Booking"
+            android:parentActivityName=".database.TampilRiwayat" />
+        <activity
+            android:name=".database.TampilDetail"
+            android:label="Detail Booking"
+            android:parentActivityName=".database.TampilDetail" />
+        <activity
+            android:name=".database.Booking"
+            android:label="Booking Parkir"
+            android:parentActivityName=".database.Booking" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Hubungi"
+            android:label="Hubungi Kami"
+            android:parentActivityName=".Hubungi" />
+        <activity
+            android:name=".Pesan"
+            android:label="Kirim Pesan"
+            android:parentActivityName=".Pesan" />
+        <activity
+            android:name=".KebijakanPrivasi"
+            android:label="Kebijakan Privasi"
+            android:parentActivityName=".KebijakanPrivasi" />
+        <activity
+            android:name=".Help"
+            android:label="Help"
+            android:parentActivityName=".Help" />
+        <activity
+            android:name=".Versi"
+            android:label="Versi Aplikasi"
+            android:parentActivityName=".Versi" />
+        <activity
+            android:name=".Tentang"
+            android:label="Tentang Kami"
+            android:parentActivityName=".Tentang" />
+
+        <activity
+            android:name=".login.DaftarAkun"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login.Login"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>

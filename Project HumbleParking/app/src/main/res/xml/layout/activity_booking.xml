@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Booking Parkir"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+
+    <ImageView
+        android:layout_width="333dp"
+        android:layout_gravity="center"
+        android:layout_height="152dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo_app" />
+
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_noPlat"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:padding="10dp"
+        android:background="@xml/input"
+        android:hint="No. Plat" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_id"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:padding="10dp"
+        android:background="@xml/input"
+        android:layout_below="@+id/et_noPlat"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/et_noPlat"
+        android:hint="Nama" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_lihat"
+        android:layout_below="@+id/et_id"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:padding="10dp"
+        android:background="@xml/input"
+        android:inputType="number"
+        android:hint="Lama Parkir (Jam)" />
+
+    <Button
+
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking Sekarang"
+        android:background="@xml/button"
+        android:id="@+id/btn_simpan"
+         />
+
+
+
+
+</LinearLayout>
